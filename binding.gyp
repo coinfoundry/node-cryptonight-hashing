@@ -23,15 +23,7 @@
                 ['OS=="openbsd" or OS=="freebsd"', {
                     "cflags_c!": [ "-fvariable-expansion-in-unroller", "-ftree-loop-if-convert-stores", "-fmerge-all-constants", "-fbranch-target-load-optimize2" ],
                     "cflags_cc!": [ "-fvariable-expansion-in-unroller", "-ftree-loop-if-convert-stores", "-fmerge-all-constants", "-fbranch-target-load-optimize2" ],
-                    "cflags_c": [
-                        "-O2",
-                        "-Wno-unused-function",
-                        "-Wno-unused-variable",
-                        "-Wno-missing-braces",
-                        "-Wno-unused-private-field",
-                        "-Wno-deprecated-declarations"
-                    ],
-                    "cflags_cc": [
+                    "cflags": [
                         "-O2",
                         "-Wno-unused-function",
                         "-Wno-unused-variable",
