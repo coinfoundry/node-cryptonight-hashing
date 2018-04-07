@@ -29,6 +29,7 @@
                         "-Wno-unused-variable",
                         "-Wno-missing-braces",
                         "-Wno-unused-private-field",
+                        "-Wno-deprecated-declarations"
                     ],
                     "cflags_cc": [
                         "-O2",
@@ -36,6 +37,7 @@
                         "-Wno-unused-variable",
                         "-Wno-missing-braces",
                         "-Wno-unused-private-field",
+                        "-Wno-deprecated-declarations"
                     ],
                     'include_dirs': [
                         '/usr/local/include'],
